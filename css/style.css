@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+  /* Halaman Home */
+  .kartu {
+    margin-top:50px;
+  }
+
+  .card-panel {
+    margin-bottom:50px;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .img-about {
+    width :80px;
+    height: 80px;
+  }
+
+  /* Halaman Profile */
+
+  .foto-about {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+/* Tampilan mobile */  
+@media screen and (max-device-width: 600px){
+    /* halaman contact dan home*/
+    .profile-contact, .portofolio {
+      margin-top:0 !important;
+      margin-bottom:30px;
+    }
+  }
